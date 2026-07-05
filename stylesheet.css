@@ -1,0 +1,136 @@
+header {
+    align-items: center;
+    top: 10;
+    width: 15;
+    background: dodgerblue;
+    text-align: center;
+}
+nav {
+    align-items: center;
+    top: 0;
+    width: 50;
+    background: lightskyblue;
+    position: relative;
+    text-align: center;
+}
+.navbar {
+    background-color: #1f2937;
+    padding: 12px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 6px 12px;
+    margin: 0 6px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.nav-link:hover {
+    background-color: #374151;
+    color: #60a5fa;
+    transform: translateY(-2px);
+}
+.nav-link.active {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.4);
+}
+body {
+    background-color: lightsteelblue; 
+    font-family: initial;
+}
+h1 {
+    font-style: oblique;
+    text-align: center;
+    font-family: cursive;
+}
+.center-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+}
+footer {
+    align-items: center;
+    top: 0;
+    width: 50;
+    background: lightskyblue;
+    position: relative;
+    text-align: center;
+}
+section {
+    margin: 30px auto;
+    padding: 30px 20px;
+    max-width: 1100px;
+    border: 2px solid #4169e1;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(65, 105, 225, 0.1);
+}
+.hero {
+    background: linear-gradient(to right, #4169e1, #1e90ff);
+    color: white;
+    border: 3px solid #1e3a8a;
+    box-shadow: 0 8px 20px rgba(30, 58, 138, 0.3);
+}
+.featured {
+    border: 2px solid royalblue;
+}
+.why-us {
+    background: #f0f4ff;
+    border: 2px solid #4169e1;
+}
+.about-brief {
+    border: 2px dashed royalblue;
+    font-style: italic;
+    color: #333;
+}
+.tagline {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 15px 0;
+}
+.product-card {
+    border: 2px solid #ddd;
+    transition: all 0.3s;
+}
+.product-card:hover {
+    border-color: royalblue;
+    transform: translateY(-5px);
+}
+.email-link {
+    color: royalblue;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.email-link:hover {
+    color: #1e3a8a;
+    text-decoration: underline;
+    background-color: #f0f4ff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+table {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+}
+table td:first-child {
+    font-weight: bold;
+    color: #222;
+    width: 40%;
+    background-color: #fafafa;
+}
+table tr:last-child td {
+    border-bottom: none;
+}
